@@ -84,7 +84,6 @@ void print_genesis_tx_hex(const std::vector<std::string> rewardAddresses, const 
    transaction = CryptoNote::CurrencyBuilder(logManager).generateGenesisTransaction(rewardTargets);
  }
 
-    const auto transaction = CryptoNote::CurrencyBuilder(logManager).generateGenesisTransaction();
 
     std::string transactionHex = Common::toHex(CryptoNote::toBinaryArray(transaction));
     std::cout << getProjectCLIHeader() << std::endl
