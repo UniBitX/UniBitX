@@ -806,7 +806,6 @@ namespace CryptoNote
         m_zawyDifficultyBlockIndex(currency.m_zawyDifficultyBlockIndex),
         m_zawyDifficultyV2(currency.m_zawyDifficultyV2),
         m_zawyDifficultyBlockVersion(currency.m_zawyDifficultyBlockVersion),
-        m_testnet(currency.m_testnet),
         genesisBlockTemplate(std::move(currency.genesisBlockTemplate)),
         cachedGenesisBlock(new CachedBlock(genesisBlockTemplate)),
         logger(currency.logger)
