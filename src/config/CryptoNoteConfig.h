@@ -95,7 +95,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
         const uint64_t MINIMUM_MIXIN_V2 = 0;
         const uint64_t MAXIMUM_MIXIN_V2 = 0;
 
-        const uint64_t MINIMUM_MIXIN_V3 = 3;
+        const uint64_t MINIMUM_MIXIN_V3 = 0;
         const uint64_t MAXIMUM_MIXIN_V3 = 3;
 
         /* The heights to activate the mixin limits at */
