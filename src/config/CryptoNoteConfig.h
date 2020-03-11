@@ -144,12 +144,12 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
         /* 25 trillion atomic, or 250 billion TRTL -> Max supply / mixin+1 outputs */
         /* This is enforced on the daemon side. An output > 250 billion causes
          * an invalid block. */
-        const uint64_t MAX_OUTPUT_SIZE_NODE   = 210'000'000'8888888888;
+        const uint64_t MAX_OUTPUT_SIZE_NODE   = 2100000008888888888;
 
         /* 100 billion atomic, or 1 billion TRTL */
         /* This is enforced on the client side. An output > 1 billion will not
          * be created in a transaction */
-        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1'000'000'0000000000;
+        const uint64_t MAX_OUTPUT_SIZE_CLIENT = 1000000000000000000;
 
         const uint64_t MAX_OUTPUT_SIZE_HEIGHT = 100000;
 
@@ -301,14 +301,14 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
     };
 
     const char* const SEED_NODES[] = {
-            "104.251.210.140:2020", // Seed1
-            "104.251.210.135:2020", // Seed2
-            "104.237.10.228:2020",  // Seed3
+            "104.251.210.140:2020",    // Seed1
+            "104.251.210.135:2020",    // Seed2
+            "104.237.10.228:2020",     // Seed3
         
-            "134.0.119.149:2020",     // Community Seed
-            "104.237.10.228:2020",    // Community Seed
-            "134.0.115.57:2020",      // Community Seed
-            "104.251.210.135:2020",   // Community Seed
+            "134.0.119.149:2020",      // Community Seed
+            "104.237.10.228:2020",     // Community Seed
+            "134.0.115.57:2020",       // Community Seed
+            "104.251.210.135:2020",    // Community Seed
       
             "134.0.115.57:2020",       // Community Seed
             "134.0.119.149:2020",      // Community Seed
