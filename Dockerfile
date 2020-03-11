@@ -1,5 +1,5 @@
 # daemon runs in the background
-# run something like tail /var/log/turtlecoind/current to see the status
+# run something like tail /var/log/unibitxd/current to see the status
 # be sure to run with volumes, ie:
 # docker run -v $(pwd)/unibitxd:/var/lib/unibitxd -v $(pwd)/wallet:/home/unibitx --rm -ti unibitx:0.2.0
 ARG base_image_version=0.10.0
