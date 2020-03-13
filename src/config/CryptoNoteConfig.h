@@ -315,6 +315,8 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
             "104.237.10.228:2020",     // Community Seed
             "134.0.115.57:2020",       // Community Seed
             "104.251.210.135:2020",    // Community Seed
+        
+            "149.255.0.145:2020",      // Community Seed
       
         
     };
