@@ -3,23 +3,91 @@
     {
       "name": "Box-1",
       "url": "104.251.210.140",
-      "port": 1111,
+      "port": 2020,
       "ssl": false,
       "cache": false
     },
     {
       "name": "Box-2",
       "url": "104.251.210.135",
-      "port": 1111,
+      "port": 2020,
       "ssl": false,
       "cache": false
     },
     {
       "name": "Box-3",
       "url": "104.237.10.228",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+     {
+      "name": "Community Node",
+      "url": "134.0.115.57",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "Community Node",
+      "url": "134.0.119.149",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "Community Node,
+      "url": "80.78.248.25",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },  {
+      "name": "Community Node",
+      "url": "151.248.114.191",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "Community Node",
+      "url": "80.78.240.191",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "Community Node",
+      "url": "134.0.119.149",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+     {
+      "name": "Community Node",
+      "url": "104.237.10.228",
       "port": 1111,
       "ssl": false,
       "cache": false
-    }
-  ]
+    },
+    {
+      "name": "Community Node",
+      "url": "134.0.115.57",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+    {
+      "name": "Community Node",
+      "url": "104.251.210.135",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },  {
+      "name": "Community Node",
+      "url": "149.255.0.145",
+      "port": 2020,
+      "ssl": false,
+      "cache": false
+    },
+ ]
 }
