@@ -83,7 +83,8 @@
       "port": 2020,
       "ssl": false,
       "cache": false
-    },  {
+    }, 
+    {
       "name": "Community Node",
       "url": "149.255.0.145",
       "port": 2020,
