@@ -89,6 +89,6 @@
       "port": 2020,
       "ssl": false,
       "cache": false
-    },
+    }
  ]
 }
