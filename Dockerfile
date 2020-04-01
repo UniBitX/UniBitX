@@ -79,4 +79,4 @@ RUN useradd -r -s /usr/sbin/nologin -m -d /var/lib/unibitxd unibitxd && \
 VOLUME ["/var/lib/unibitxd", "/home/unibitx","/var/log/unibitxd"]
 
 ENTRYPOINT ["/init"]
-CMD ["/usr/bin/execlineb", "-P", "-c", "emptyenv cd /home/unibitx export HOME /home/turtlecoin s6-setuidgid unibitx /bin/bash"]
+CMD ["/usr/bin/execlineb", "-P", "-c", "emptyenv cd /home/unibitx export HOME /home/unibitx s6-setuidgid unibitx /bin/bash"]
