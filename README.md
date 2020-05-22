@@ -93,7 +93,7 @@ If you want to use clang, ensure you set the environment variables `CC` and `CXX
 See the ubuntu instructions for an example.
 
 - `git clone -b master --single-branch https://github.com/unibitx/unibitx/`
-- `cd turtlecoin`
+- `cd unibitx`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
